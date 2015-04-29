@@ -13,3 +13,4 @@ if [ $Apa_stat == 'open' ]
       echo "${date}：Apache is reboot!" >> "/tmp/Apa.wrong.log"      
 fi
 ok
+ls
