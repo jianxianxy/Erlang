@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, qs,
+ [{description, "qs"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'qs_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.

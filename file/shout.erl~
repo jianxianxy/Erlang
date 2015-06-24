@@ -1,0 +1,8 @@
+-module(shout).
+-export([start/0]).
+-import(lists,[map/2,reverse/1]).
+-define(CHUNKSIZE,24576).
+
+start() -> 
+	
+
